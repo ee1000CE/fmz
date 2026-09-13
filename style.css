@@ -293,6 +293,24 @@ h1, h2 {
   font-size: 0.85em;
 }
 
+/* ---------- benefits list ---------- */
+.benefits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 14px;
+  margin-top: 40px;
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+.benefits li {
+  background: white;
+  border-radius: 16px;
+  padding: 18px 20px;
+  box-shadow: var(--shadow);
+  line-height: 1.5;
+}
+
 /* ---------- gallery ---------- */
 .gallery {
   display: grid;

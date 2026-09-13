@@ -91,12 +91,12 @@ Close the laptop for five minutes. You're handling more than you give yourself c
   sad: {
     text: `Hey,<br><br>
 Whatever it is, you don't have to be "fine" about it right now.<br><br>
-Hug Toci, make coffee, breathe. I can't fix it from wherever I am, but it won't feel like this forever, and you're not dealing with it alone.`,
+Hug Toci, make coffee, breathe. I can't fix it from wherever I am, but it won't feel like this forever, and you're not dealing with it alone. I'm here anytime — just call me.`,
   },
   lonely: {
     text: `Fami,<br><br>
 Distance is annoying, I know. That's most of why this site exists — something to open when it's quiet.<br><br>
-Remember that FaceTime where I was mid-workout and you were showing off a vaccine bandage like a trophy? Still one of my favorite calls. We're ridiculous even through a screen, and I'm not as far as it feels.`,
+Remember when you forced me to watch Big Brother with you and I couldn't get a word in the whole episode? Exactly, Chef Fami. I'll take being bored next to you over anywhere else.`,
     photo: 'images/facetime.jpg',
   },
   doubt: {
