@@ -30,7 +30,7 @@ lockForm.addEventListener('submit', (e) => {
 
 // ---------- Floating background hearts/emoji ----------
 const floatiesContainer = document.getElementById('floaties');
-const floatEmojis = ['💗', '☕', '🐾', '💎', '🐱'];
+const floatEmojis = ['☕', '🐾', '💎', '🐱'];
 
 function spawnFloaty() {
   const el = document.createElement('div');
@@ -47,7 +47,7 @@ function spawnFloaty() {
 let floatyInterval;
 function startFloaties() {
   spawnFloaty();
-  floatyInterval = setInterval(spawnFloaty, 1400);
+  floatyInterval = setInterval(spawnFloaty, 3200);
 }
 
 // ---------- Timeline reveal on scroll ----------
@@ -85,39 +85,33 @@ lightbox.addEventListener('click', () => { lightbox.hidden = true; });
 const letters = {
   tired: {
     text: `Hey Fami,<br><br>
-If you're reading this, you're probably running on your third coffee and negative hours of sleep, buried in notes about cells doing things only you understand.<br><br>
-First: close the laptop for five minutes. Second: you are handling more than you give yourself credit for. I've watched you turn caffeine and pure stubbornness into a future biomedical scientist, and it's one of the most impressive things I've ever seen up close.<br><br>
-Rest for a bit. Let Toci do their job and keep you company. The cells will still be there tomorrow — and so will I.`,
+Third coffee, zero sleep, notes about cells doing things only you understand — sounds about right.<br><br>
+Close the laptop for five minutes. You're handling more than you give yourself credit for. Let Toci take over for a bit. The cells will still be there tomorrow.`,
   },
   sad: {
-    text: `Hey love,<br><br>
-Whatever it is, it's allowed to be hard. You don't have to perform "fine" for me, of all people.<br><br>
-Hug Toci a little tighter, put the kettle on (coffee, obviously), and just breathe for a second. I can't fix everything from wherever I am, but I can promise this: it gets lighter, and you are not carrying it alone.<br><br>
-You're the strongest person I know who also cries at cat videos — and I love both of you equally.`,
+    text: `Hey,<br><br>
+Whatever it is, you don't have to be "fine" about it right now.<br><br>
+Hug Toci, make coffee, breathe. I can't fix it from wherever I am, but it won't feel like this forever, and you're not dealing with it alone.`,
   },
   lonely: {
     text: `Fami,<br><br>
-Distance is annoying and I hate it too. But I built you a whole ridiculous website, just so you'd have something of me to open when the room feels too quiet.<br><br>
-That FaceTime where I was sweating through a workout and you were showing off a vaccine bandage like it was a trophy? That's us. Silly, unfiltered, still choosing each other through a screen.<br><br>
-I'm not as far away as it feels right now.`,
+Distance is annoying, I know. That's most of why this site exists — something to open when it's quiet.<br><br>
+Remember that FaceTime where I was mid-workout and you were showing off a vaccine bandage like a trophy? Still one of my favorite calls. We're ridiculous even through a screen, and I'm not as far as it feels.`,
     photo: 'images/facetime.jpg',
   },
   doubt: {
     text: `Hey,<br><br>
-If you're here, something's making you question "us." So let me say it plainly: I am not going anywhere.<br><br>
-I think about the version of you in ten years, sunglasses on, pulling up in the Porsche 911 we joke about — and I plan on being the one still there, still annoying you, still applying your lipstick before dinner, still yours.<br><br>
-Doubt is normal. Us isn't up for debate.`,
+If something's making you doubt us, here's the short version: I'm not going anywhere.<br><br>
+Ten years from now I still plan on being around to hear about your day, Porsche or no Porsche. Doubt happens. Us isn't actually in question.`,
   },
   angry: {
     text: `Fami,<br><br>
-If I'm frustrated right now, it's about a moment — not about you, and never about us.<br><br>
-I'm sorry if I said something sharp. Give me a minute and I'll come back calmer, and better. My love for you isn't something a bad mood gets to touch.<br><br>
-Toci doesn't hold grudges. Neither do I, not really, not for long — not with you.`,
+If I'm annoyed right now, it's about whatever just happened, not about you, and definitely not about us.<br><br>
+Give me a minute to cool off and I'll come back less of a pain. Doesn't change anything.`,
   },
   laugh: {
-    text: `WARNING: do not open this in public.<br><br>
-Exhibit A of why I fell for you. This is the face of a woman who studies human biology for a living, and also makes this exact face at a phone camera for absolutely no reason.<br><br>
-I love pig-face Fami just as much as biomedical-scientist Fami and future-Porsche-driving Fami. Never, ever stop making this face at me.`,
+    text: `Exhibit A of why I fell for you.<br><br>
+This is the face of a future biomedical scientist making this exact face at her phone camera for no reason at all. Never stop.`,
     photo: 'images/laugh.jpg',
   },
 };
