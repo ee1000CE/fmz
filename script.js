@@ -101,8 +101,8 @@ Remember that FaceTime where I was mid-workout and you were showing off a vaccin
   },
   doubt: {
     text: `Hey,<br><br>
-If something's making you doubt us, here's the short version: I'm not going anywhere.<br><br>
-Ten years from now I still plan on being around to hear about your day, Porsche or no Porsche. Doubt happens. Us isn't actually in question.`,
+Whatever's spinning in your head right now is probably bigger in there than it actually is.<br><br>
+If something's bothering you, just say it — I'd rather sort it out than have you overthink it alone for three days.`,
   },
   angry: {
     text: `Fami,<br><br>

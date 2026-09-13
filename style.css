@@ -166,7 +166,6 @@ h1, h2 {
   font-size: clamp(2.2em, 7vw, 3.4em);
   margin: 0 0 8px;
 }
-.heart { color: var(--pink-deep); margin: 0 10px; }
 .hero-tagline {
   font-size: 1.2em;
   color: var(--pink-deep);
